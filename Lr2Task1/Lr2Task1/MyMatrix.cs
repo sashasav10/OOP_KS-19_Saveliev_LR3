@@ -74,11 +74,11 @@ namespace Lr2Task1
         }
         public int GetHeight()
         {
-            return _matrix.GetLength(0);
+            get=> this._matrix.GetLength(0);
         }
         public int GetWidth()
         {
-            return _matrix.GetLength(1);
+            get=> this._matrix.GetLength(1);
         }
         private int Height()
         {
